@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculo Intregal – Recursos Educativos</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Calculo Integral– Recursos Educativos</h1>
+    </header>
+
+    
+    <div class="content-switcher">
+        <button class="content-btn active" data-target="libros">📚 Libros</button>
+        <button class="content-btn" data-target="videos">🎥 Videos</button>
+        <a href="index.html" class="back-btn">← Volver</a>
+    </div>
+
+    <main>
+        
+        <section id="libros" class="content-section active">
+            <h2>Libros</h2>
+            <div class="libros-grid">
+               
+                <div class="material-libro">
+                    <a href="libros/[Purcell,Varberg,Rigdon]Calculo.pdf" target="_blank" class="portada-link">
+                        <img src="portadas/[Purcell,Varberg,Rigdon]Calculo_001.png" class="portada-libro" alt="calculo i" />
+                        <div class="overlay">Descargar</div>
+                    </a>
+                    <div class="info-libro">
+                        <h4>Calculo Diferencial E Integral</h4>
+                        <p class="meta-info">PDF · 7.9 MB</p>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+      
+        <section id="videos" class="content-section">
+            <h2>Videos por Tema</h2>
+            <div class="video-item">
+                <h3>Integración </h3>
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/LtUh2a_EUu4?si=GQ8EShlPJYJLq5Ox&amp;controls=0" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                
+            </div>
+      
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Profesor Serafín</p>
+    </footer>
+
+    <script src="materia.js"></script>
+
+</body>
+</html>

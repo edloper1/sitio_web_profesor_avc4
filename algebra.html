@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Álgebra – Recursos Educativos</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Álgebra – Recursos Educativos</h1>
+    </header>
+
+    <!-- Barra de navegación simplificada -->
+    <div class="content-switcher">
+        <button class="content-btn active" data-target="libros">📚 Libros</button>
+        <button class="content-btn" data-target="videos">🎥 Videos</button>
+        <a href="index.html" class="back-btn">← Volver</a>
+    </div>
+
+    <main>
+        
+        <section id="libros" class="content-section active">
+            <h2>Libros</h2>
+            <div class="libros-grid">
+              
+                <div class="material-libro">
+                    <a href="libros/06. Números Reales y Fundamentos de Algebra autor Master Pedro Díaz Navarro.pdf" target="_blank" class="portada-link">
+                        <img src="portadas/06. Números Reales y Fundamentos de Algebra autor Master Pedro Díaz Navarro_001.png" class="portada-libro" alt="Álgebra de Baldor" />
+                        <div class="overlay">Descargar</div>
+                    </a>
+                    <div class="info-libro">
+                        <h4>Fundamentos de algebra</h4>
+                        <p class="meta-info">PDF · 0.6 MB</p>
+                    </div>
+                </div>
+              
+                 <div class="material-libro">
+                    <a href="libros/Manual de Álgebra Universidad Católica de la Santísima Concepción.pdf" target="_blank" class="portada-link">
+                        <img src="portadas/Manual de Álgebra Universidad Católica de la Santísima Concepción_001.png" class="portada-libro" alt="Álgebra de Baldor" />
+                        <div class="overlay">Descargar</div>
+                    </a>
+                    <div class="info-libro">
+                        <h4>Manual de algebra</h4>
+                        <p class="meta-info">PDF · 3.6 MB</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Videos (oculta inicialmente) -->
+        <section id="videos" class="content-section">
+            <h2>Videos por Tema</h2>
+            <div class="video-item">
+                <h3>Numeros reales</h3>
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/c9IwjTFMkng?si=d7bR39sAI954gEuy&amp;controls=0" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <p>Álgebra básica desde cero – explicación paso a paso.</p>
+            </div>
+            <!-- Agrega más videos si lo deseas -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Profesor Serafín</p>
+    </footer>
+
+    <script src="materia.js"></script>
+
+</body>
+</html>

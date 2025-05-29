@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculo Diferencial – Recursos Educativos</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Calculo Diferencial – Recursos Educativos</h1>
+    </header>
+
+    <!-- Barra de navegación simplificada -->
+    <div class="content-switcher">
+        <button class="content-btn active" data-target="libros">📚 Libros</button>
+        <button class="content-btn" data-target="videos">🎥 Videos</button>
+        <a href="index.html" class="back-btn">← Volver</a>
+    </div>
+
+    <main>
+        <!-- Sección de Libros (visible por defecto) -->
+        <section id="libros" class="content-section active">
+            <h2>Libros</h2>
+            <div class="libros-grid">
+                <!-- Libro 1 -->
+                <div class="material-libro">
+                    <a href="libros/calculo_ayres.pdf" target="_blank" class="portada-link">
+                        <img src="portadas/calculo_ayres_001.png" class="portada-libro" alt="Álgebra de Baldor" />
+                        <div class="overlay">Descargar</div>
+                    </a>
+                    <div class="info-libro">
+                        <h4>Calculo Diferencial e integral</h4>
+                        <p class="meta-info">PDF · 13.9 MB</p>
+                    </div>
+                </div>
+                <!-- Puedes agregar más libros repitiendo este bloque -->
+            </div>
+        </section>
+
+        <!-- Sección de Videos (oculta inicialmente) -->
+        <section id="videos" class="content-section">
+            <h2>Videos por Tema</h2>
+            <div class="video-item">
+                <h3>Límites y continuidad de funciones</h3>
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/sHuqCyEVNCs?si=mTTpNjZ9RrKvweFu&amp;controls=0"  
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                
+            </div>
+            <!-- Agrega más videos si lo deseas -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Profesor Serafín</p>
+    </footer>
+
+    <script src="materia.js"></script>
+
+</body>
+</html>

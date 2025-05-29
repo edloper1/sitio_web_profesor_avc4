@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Álgebra – Recursos Educativos</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Álgebra – Recursos Educativos</h1>
+    </header>
+
+    
+    <div class="content-switcher">
+        <button class="content-btn active" data-target="libros">📚 Libros</button>
+        <button class="content-btn" data-target="videos">🎥 Videos</button>
+        <a href="index.html" class="back-btn">← Volver</a>
+    </div>
+
+    <main>
+        
+        <section id="libros" class="content-section active">
+            <h2>Libros</h2>
+            <div class="libros-grid">
+              
+                <div class="material-libro">
+                    <a href="libros/libro-algebra-lineal.pdf" target="_blank" class="portada-link">
+                        <img src="portadas/libro_algebra_lineal_1.jpg" class="portada-libro" alt="Álgebra lineal" />
+                        <div class="overlay">Descargar</div>
+                    </a>
+                    <div class="info-libro">
+                        <h4>Álgebra Lineal</h4>
+                        <p class="meta-info">PDF · 1.7 MB</p>
+                    </div>
+                </div>
+                
+                 <div class="material-libro">
+                    <a href="libros/Álgebra Lineal Gabriela Jeronimo, Juan Sabia y Susana Tesauri.pdf" target="_blank" class="portada-link">
+                        <img src="portadas/Álgebra Lineal Gabriela Jeronimo, Juan Sabia y Susana Tesauri_001.png" class="portada-libro" alt="Álgebra lineal" />
+                        <div class="overlay">Descargar</div>
+                    </a>
+                    <div class="info-libro">
+                        <h4>Álgebra Lineal</h4>
+                        <p class="meta-info">PDF · 1.4 MB</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     
+        <section id="videos" class="content-section">
+            <h2>Videos por Tema</h2>
+            <div class="video-item">
+                <h3>Ecuaciones Lineales</h3>
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/RJ96S2Pt3qU?si=ndW7rl8YM743N3-k" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Profesor Serafín</p>
+    </footer>
+
+    <script src="materia.js"></script>
+
+</body>
+</html>
